@@ -1,0 +1,21 @@
+{
+    "ITEM":
+    {
+        "ID":{},
+        "NAME":{}
+    },
+    "COLOUR":
+    {
+        "ITEM":{},
+        "CHARA":
+        {
+            "R":"",
+            "SR":"4183CF", "SR1":"4183CF",
+            "SSR":"9944CB", "SSR1":"9944CB",
+            "UR":"D95FD3", "UR1":"D95FD3",
+            "MR":"F39B44", "MR1":"F39B44",
+            "LR":"EF495C", "LR1":"EF495C", "LR2":"EF495C", 
+            "XR":"C13A98", "XR1":"D14BAB", "XR2":"EC6ACA"
+        }
+    }
+}

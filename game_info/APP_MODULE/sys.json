@@ -1,0 +1,37 @@
+{
+    "CHARA":
+    {
+        "EXIST":true,
+        "CAPA_IMIT":false,
+        "EXP":true
+    },
+    "GACHA":true,
+
+    "STORAGE":
+    {
+        "EXIST":true,
+        "CAPA_LIMIT":false
+    },
+
+    "MONEY":
+    {
+        "EXIST":true,
+        "NAME":"",
+        "IS_ITEM":false,
+        "LIMIT":114514514
+    },
+    "STAMINA":
+    {
+        "EXIST":true,
+        "NAME":"",
+        "IS_ITEM":false,
+        "LIMIT":8100721
+    },
+    "JEM":
+    {
+        "EXIST":true,
+        "NAME":"",
+        "IS_ITEM":false,
+        "LIMIT":null
+    }
+}

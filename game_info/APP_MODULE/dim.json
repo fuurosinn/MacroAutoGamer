@@ -1,0 +1,125 @@
+{
+    "LOGIN":
+    {
+        "HOME":
+        {
+            "SHOP":
+            {
+                "BTNS":
+                {
+                    "HOME":
+                    {
+                        "cord":{"x0":null, "y0":null, "x1":null, "y1":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                    },
+                    "BACK":
+                    {
+                        "cord":{"x0":null, "y0":null, "x1":null, "y1":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                    }
+                },
+
+                "FRAME":
+                {
+                    "GOODS_LIST":
+                    {
+                        "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+
+                        "PAL":
+                        {
+                            "EVERY":
+                            {
+                                "C_BTN":{"x":null, "y":null, "w":null, "h":null},
+
+                                "BTNS":
+                                {
+                                    "SET_FUNC":
+                                    {
+                                        "cord":{"x":null, "y":null, "w":null, "h":null},
+                                        "FUNC":
+                                        {
+                                            "POPP":
+                                            {
+                                                "NAME":"アイテム表示画面",
+                                                "RECT":{"x":null, "y":null, "w":null, "h":null},
+                                                "BTNS":
+                                                {
+                                                    "BUY":
+                                                    {
+                                                        "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                        "FUNC":
+                                                        {
+                                                            "POPP":
+                                                            {
+                                                                "NAME":"アイテム購入確認画面",
+                                                                "RECT":{"x":null, "y":null, "w":null, "h":null},
+                                                                "BTNS":
+                                                                {
+                                                                    "CONFIRMATION":
+                                                                    {
+                                                                        "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                                        "FUNC":
+                                                                        {
+                                                                            "GET":"",
+                                                                            "CLOSE":true
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "BUY_0":{"USE_FUNC":true},
+                                    "BUY_1":{"USE_FUNC":true}
+                                }
+
+                            },
+                            "MONTH":
+                            {
+                                "C_BTN":{"x0":null, "y0":null, "x1":null, "y1":null}
+                            },
+                            "WEEK":
+                            {
+                                "C_BTN":{"x0":null, "y0":null, "x1":null, "y1":null}
+                            },
+                            "DAILY":
+                            {
+                                "C_BTN":{"x0":null, "y0":null, "x1":null, "y1":null}
+                            }
+                        }
+                    }
+                }
+            },
+            "STORAGE":
+            {
+                "BTNS":
+                {
+                    "HOME":
+                    {
+                        "cord":{"x0":null, "y0":null, "x1":null, "y1":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                    },
+                    "BACK":
+                    {
+                        "cord":{"x0":null, "y0":null, "x1":null, "y1":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                    }
+                },
+                "FRAME":
+                {
+                    "GOODS_LIST":
+                    {
+                        "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+                        "PAL":
+                        {
+                            "GEAR":{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

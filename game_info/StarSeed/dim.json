@@ -1,0 +1,541 @@
+{
+    "LOGIN":
+    {
+        "BTNS":
+        {
+            "DATA_RESET":
+            {
+                "cord":{"x":null, "y":null, "w":null, "h":null}
+            }
+        },
+        "PAGE":
+        {
+            "HOME":
+            {
+                "PAGE":
+                {
+                    "STORAGE":
+                    {
+                        "BTNS":
+                        {
+                            "HOME":
+                            {
+                                "cord":{"x0":142, "y0":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                            },
+                            "BACK":
+                            {
+                                "cord":{"x0":38, "y0":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                            }
+                        },
+                        "FRAME":
+                        {
+                            "GOODS_LIST":
+                            {
+                                "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+                                "PAL":
+                                {
+                                    "SUNDRY":
+                                    {
+                                        "C_BTN":{"x":37, "y":124, "w":242, "h":65}
+                                    },
+                                    "GEAR":
+                                    {
+                                        "C_BTN":{"x":37, "y":220.7, "w":242, "h":65}
+                                    },
+                                    "MATERIALS":
+                                    {
+                                        "C_BTN":{"x":37, "y":317.3, "w":242, "h":65}
+                                    },
+                                    "OTHERS":
+                                    {
+                                        "C_BTN":{"x":37, "y":414, "w":242, "h":65}
+                                    }
+                                },
+
+                                "NOTE":
+                                [
+                                    "RECTが枠の範囲, 正直これあんまり無くてもいいと思った.",
+                                    "PALがparallelの意味, この場合はSUNDRYが雑貨, GEARが装備類, MATERIALSが素材, OTHERSがその他."
+                                ]
+                            }
+                        }
+                    },
+                    "MAILBOX":
+                    {
+                        "BTNS":
+                        {
+                            "HOME":
+                            {
+                                "cord":{"x":142, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                            },
+                            "BACK":
+                            {
+                                "cord":{"x":38, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                            },
+
+                            "RECEIVE":
+                            {
+                                "cord":{"x":1282, "y":802, "w":280, "h":60},
+                                "FUNC":true
+                            },
+                            "RECEIVE_ALL":
+                            {
+                                "cord":{"x":265, "y":802, "w":217, "h":60},
+                                "FUNC":true
+                            },
+                            "DELETE_READ":
+                            {
+                                "cord":{"x":37, "y":802, "w":217, "h":60},
+                                "FUNC":true
+                            }
+                        },
+                        "FRAME":
+                        {
+                            "TYPE":
+                            {
+                                "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+                                "PAL":
+                                {
+                                    "NORMAL":
+                                    {
+                                        "C_BTN":{"x":37, "y":125, "w":222, "h":60}
+                                    },
+                                    "SHOP":
+                                    {
+                                        "C_BTN":{"x":260, "y":125, "w":222, "h":60}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "MISSION":
+                    {
+                        "BTNS":
+                        {
+                            "HOME":
+                            {
+                                "cord":{"x":142, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                            },
+                            "BACK":
+                            {
+                                "cord":{"x":38, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                            },
+                            "RECEIVE_ALL":
+                            {
+                                "cord":{"x":1295, "y":802, "w":267, "h":60},
+                                "FUNC":true
+                            }
+                        },
+                        "FRAME":
+                        {
+                            "TYPE":
+                            {
+                                "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+                                "PAL":
+                                {
+                                    "DAILY":
+                                    {
+                                        "C_BTN":{"x":38, "y":124, "w":270, "h":90},
+                                        "FRAME":
+                                        {
+                                            "ACHIEVEMENT":
+                                            {
+                                                "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+                                                "PAL":
+                                                {
+                                                    "20":
+                                                    {
+                                                        "C_BTN":{"x":734, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "40":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "60":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "80":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "100":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "WEEKLY":
+                                    {
+                                        "C_BTN":{"x":38, "y":237, "w":270, "h":90},
+                                        "FRAME":
+                                        {
+                                            "ACHIEVEMENT":
+                                            {
+                                                "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+                                                "PAL":
+                                                {
+                                                    "20":
+                                                    {
+                                                        "C_BTN":{"x":734, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "40":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "60":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "80":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    },
+                                                    "100":
+                                                    {
+                                                        "C_BTN":{"x":null, "y":135, "w":77, "h":77}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "MAIN":
+                                    {
+                                        "C_BTN":{"x":38, "y":350, "w":270, "h":90}
+                                    },
+                                    "EVENT":
+                                    {
+                                        "C_BTN":{"x":38, "y":463, "w":270, "h":90}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "DOCK":
+                    {
+                        "PAGE":
+                        {
+                            "NURTURING":
+                            {
+                                "PAGE":{},
+                                "FRAME":
+                                {
+                                    "CHARACTER":
+                                    {
+                                        "RECT":{"x0":null, "y0":null, "x1":null, "y1":null},
+                                        "PAL":
+                                        {
+                                            "INFOMATION":
+                                            {
+                                                "C_BTN":{"x":232, "y":334, "w":150.0, "h":56},
+                                                "LVL_UP":
+                                                    {
+                                                        "cord":{"x":1167, "y":789, "w":395, "h":73},
+                                                        "FUNC":{}
+                                                    },
+                                                "SYNCHRONIZATION":
+                                                    {
+                                                        "cord":{"x":934, "y":789, "w":218, "h":73},
+                                                        "FUNC":
+                                                        {
+                                                            "POPP":
+                                                            {
+                                                                "NAME":"同期Lv.UP",
+                                                                "RECT":{"x":null, "y":null, "w":null, "h":null},
+                                                                "BTNS":{}
+                                                            }
+                                                        }
+                                                    },
+                                                "LVL_RESET":
+                                                {
+                                                    "cord":{"x":1371, "y":666, "w":191, "h":49},
+                                                    "FUNC":{}
+                                                },
+                                                "UPGRADE":
+                                                {
+                                                    "cord":{"x":232, "y":802, "w":219, "h":60},
+                                                    "FUNC":{}
+                                                }
+                                            },
+                                            "SKILL":
+                                            {
+                                                "C_BTN":{"x":232, "y":421, "w":150.0, "h":56}
+                                            },
+                                            "GEAR":
+                                            {
+                                                "C_BTN":{"x":232, "y":509, "w":150.0, "h":56}
+                                            },
+                                            "OPTIMIZATION":
+                                            {
+                                                "C_BTN":{"x":232, "y":597, "w":150.0, "h":56}
+                                            },
+                                            "PROFILE":
+                                            {
+                                                "C_BTN":{"x":232, "y":684, "w":150.0, "h":56}
+                                            }
+                                        }
+                                    }
+                                },
+                                "BTNS":
+                                {
+                                    "HOME":
+                                    {
+                                        "cord":{"x":142, "y":18, "w":80, "h":54},
+                                        "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                                    },
+                                    "BACK":
+                                    {
+                                        "cord":{"x":38, "y":18, "w":80, "h":54},
+                                        "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                                    }
+                                }
+                            }
+                        },
+                        "BTNS":
+                        {
+                            "HOME":
+                            {
+                                "cord":{"x":142, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                            },
+                            "BACK":
+                            {
+                                "cord":{"x":38, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                            },
+                            "NURTURING":
+                            {
+                                "cord":{"x":1254, "y":692, "w":308, "h":73},
+                                "FUNC":{"JUMP":{"DESTINATION":"", "MEM":true}}
+                            }
+                        },
+                        "FRAME":
+                        {
+                            "CHARA_LIST":
+                            {
+                                "RECT":{"x0":37, "y0":161, "x1":592, "y1":789},
+                                "SLIDE":
+                                {
+                                    "LIST":
+                                    {
+                                        "LENS":{"width":4, "height":null},
+                                        "origin":{"x":1, "y":4},
+                                        "SIZE":{"w":133, "h":170},
+                                        "MERGIN":{"w":3, "h":4},
+
+                                        "NOTE":
+                                        [
+                                            "LENS内のwidthが横, heightが縦の要素の数",
+                                            "originがSLIDEの(x0, y0)を原点とした1番目の要素の左上の相対座標",
+                                            "SIZEは要素1個あたりのサイズ",
+                                            "MERGINは要素同士の余白, wが横でhが縦"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "BATTLE_STAGE":
+                    {
+                        "FRAME":
+                        {
+                            "STAGE":
+                            {
+                                "RECT":{"x0":0, "y0":784, "x1":1599, "y1":899},
+                                "SLIDE":
+                                {
+                                    "BAR":
+                                    {
+                                        "LENS":{"width":null, "height":1},
+                                        "origin":{"x":0, "y":0},
+                                        "SIZE":{"w":null, "h":null},
+                                        "MERGIN":{"w":0, "h":0},
+
+                                        "NOTE":
+                                        [
+                                            "LENSはほぼ確定",
+                                            "origin, SIZE, MERGIN, 要調査"
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        "PAGE":
+                        {
+                            "FORMATION":
+                            {
+                                "PAGE":
+                                {
+                                    "BATTLE":
+                                    {
+                                        "BTNS":
+                                        {
+                                            "SPEED":
+                                            {
+                                                "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                "FUNC":{}
+                                            },
+                                            "SKILL_MOVIE":
+                                            {
+                                                "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                "FUNC":{}
+                                            },
+                                            "AUTO":
+                                            {
+                                                "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                "FUNC":{}
+                                            },
+                                            "CAMERA":
+                                            {
+                                                "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                "FUNC":{}
+                                            },
+
+                                            "S-TRIGGER":
+                                            {
+                                                "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                "FUNC":{}
+                                            },
+                                            "AUTO-S-TRIGGER":
+                                            {
+                                                "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                "FUNC":{}
+                                            },
+
+                                            "PAUSE":
+                                            {
+                                                "cord":{"x":null, "y":null, "w":null, "h":null},
+                                                "FUNC":{}
+                                            }
+                                        }
+                                    }
+                                },
+                                "BTNS":
+                                {
+                                    "HOME":
+                                    {
+                                        "cord":{"x":142, "y":18, "w":80, "h":54},
+                                        "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                                    },
+                                    "BACK":
+                                    {
+                                        "cord":{"x":38, "y":18, "w":80, "h":54},
+                                        "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                                    },
+
+                                    "TEAM_FORMATION":
+                                    {
+                                        "cord":{"x":37, "y":785, "w":217, "h":73},
+                                        "FUNC":{"":""}
+                                    },
+                                    "TACTICS":
+                                    {
+                                        "cord":{"x":275, "y":785, "w":219, "h":73},
+                                        "FUNC":{"":""}
+                                    },
+                                    "BATTLE_SETTING":
+                                    {
+                                        "cord":{"x":501, "y":785, "w":217, "h":73},
+                                        "FUNC":{"":""}
+                                    },
+                                    "PRESET":
+                                    {
+                                        "cord":{"x":725, "y":785, "w":219, "h":73},
+                                        "FUNC":{"":""}
+                                    },
+                                    "BATTLE_RECORD":
+                                    {
+                                        "cord":{"x":982, "y":785, "w":230, "h":73},
+                                        "FUNC":
+                                        {
+                                            "POPP":{"":""}
+                                        }
+                                    },
+                                    "SORTIE":
+                                    {
+                                        "cord":{"x":1224, "y":761, "w":336, "h":96},
+                                        "FUNC":{"JUMP":"BATTLE", "MEM":true}
+                                    }
+                                }
+                            }
+                        },
+                        "BTNS":
+                        {
+                            "HOME":
+                            {
+                                "cord":{"x":142, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"HOME", "MEM":false}}
+                            },
+                            "BACK":
+                            {
+                                "cord":{"x":38, "y":18, "w":80, "h":54},
+                                "FUNC":{"JUMP":{"DESTINATION":"..", "MEM":false}}
+                            },
+
+                            "SORTIE":
+                            {
+                                "cord":{"x":1225, "y":659, "w":314, "h":88},
+                                "FUNC":
+                                {
+                                    "POPP":
+                                    {
+                                        "NAME":"出撃確認",
+                                        "RECT":{"x":264, "y":192, "w":1071, "h":485},
+                                        "BTNS":
+                                        {
+                                            "SORTIE":
+                                            {
+                                                "cord":{"x":364, "y":394, "w":343, "h":65},
+                                                "FUNC":
+                                                {
+                                                    "CLOSE":"POPP",
+                                                    "JUMP":{"DESTINATION":"FORMATION", "MEM":true}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "BTNS":
+                {
+                    "STORAGE":
+                    {
+                        "cord":{"x":null, "y":null, "w":null, "h":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"STORAGE", "MEM":true}}
+                    },
+                    "MAILBOX":
+                    {
+                        "cord":{"x":null, "y":null, "w":null, "h":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"MAILBOX", "MEM":true}}
+                    },
+                    "MISSION":
+                    {
+                        "cord":{"x":null, "y":null, "w":null, "h":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"MISSION", "MEM":true}}
+                    },
+                    "DOCK":
+                    {
+                        "cord":{"x":null, "y":null, "w":null, "h":null},
+                        "FUNC":{"JUMP":{"DESTINATION":"DOCK", "MEM":true}}
+                    },
+                    "BATTLE_STAGE":
+                    {
+                        "cord":{"x":1225, "y":642, "w":313, "h":88},
+                        "FUNC":{"JUMP":{"DESTINATION":"BATTLE_STAGE", "MEM":true}}
+                    }
+                }
+            }
+        }
+    }
+}

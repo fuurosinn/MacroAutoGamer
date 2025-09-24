@@ -1,0 +1,38 @@
+{
+    "VANITAS":
+    {
+        "GAME_INFO_DIR":"./game_info/VANITAS",
+        "GAME_INFO_NAME":"info.json",
+        "GAME_INFO_DIMENSION":"dim.json",
+        "GAME_DIR":"./game_datas/VANITAS"
+    },
+    "APP_MODULE":
+    {
+        "GAME_INFO_DIR":"./game_info/APP_MODULE",
+        "GAME_INFO_NAME":"info.json",
+        "GAME_INFO_DIMENSION":"dim.json",
+        "GAME_DIR":"./game_datas/APP_MODULE"
+    },
+    "AzurLane":
+    {
+        "GAME_INFO_DIR":"./game_info/AzurLane",
+        "GAME_INFO_NAME":"info.json",
+        "GAME_INFO_DIMENSION":"dim.json",
+        "GAME_DIR":"./game_datas/AzurLane"
+    },
+    "MahjongSoul":
+    {
+        "GAME_INFO_DIR":"./game_info/MahjongSoul",
+        "GAME_INFO_NAME":"info.json",
+        "GAME_INFO_DIMENSION":"dim.json",
+        "GAME_DIR":"./game_datas/MahjongSoul"
+    },
+
+    "StarSeed":
+    {
+        "GAME_INFO_DIR":"./game_info/StarSeed",
+        "GAME_INFO_NAME":"info.json",
+        "GAME_INFO_DIMENSION":"dim.json",
+        "GAME_DIR":"./game_datas/StarSeed"
+    }
+}

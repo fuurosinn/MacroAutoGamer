@@ -1,0 +1,3 @@
+# ログイン日時、ログアウト日時の記録.
+# Record login and logout times.
+
