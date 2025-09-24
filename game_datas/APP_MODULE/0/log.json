@@ -1,0 +1,10 @@
+{
+    "LAST_LOGIN":"",
+    "LAST_LOGOUT":"",
+
+    "NOTE":
+    [
+        "LAST_LOGINが最終ログイン日時",
+        "LAST_LOGOUTが最終ログイン日時"
+    ]
+}

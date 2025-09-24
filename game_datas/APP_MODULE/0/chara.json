@@ -1,0 +1,71 @@
+{
+    "CHARACTER":
+    {
+        "PRESET":
+        {
+            "INITIAL_RARITY":"初期レアリティ",
+            "RARITY":"現在レアリティ",
+
+            "CORE":"コア種類",
+            "POSITION":"ポジション",
+            "TYPE":"広域",
+
+            "FORCE":"勢力",
+            "AFFILIATION":"所属",
+
+            "LOCKED":"ロック済みかどうか",
+
+
+            "SYNCHRONIZATION":"レベル同期しているかどうか",
+            "LVL":"現在レベル",
+            "LVL_LIMIT":"レベル上限",
+
+            "BITCH_DEGREE":"好感度レベル",
+            "SEX_EXP":"好感度経験値",
+
+
+            "ACADEMY_BADGE":{},
+            "STATS":"戦闘力",
+            "PLUGIN":{},
+
+
+            "SKIN":
+            {
+                "NORMAL":{"GOT":"入手済みかどうかをtfで", "NAME":"コスチューム名", "EQUIPPED":"装備中かどうかをtfで"}
+            },
+
+            "SKILL":
+            {
+                "必殺技":{"TYPE":"U", "LVL":1},
+                "アクティブ1":{"TYPE":"A1", "LVL":1},
+                "アクティブ2":{"TYPE":"A2", "LVL":1},
+                "パッシブ":{"TYPE":"P", "LVL":1},
+                "プラグインEX":{"TYPE":"EX", "LVL":1}
+            },
+
+            "GEAR":
+            {
+                "GEAR_STATS":"装備戦闘力",
+                "STATS_DETAIL":
+                {
+                    "ATK":50,
+                    "DEF":47,
+                    "HP":774
+                },
+
+                "GEAR_DETAIL":
+                {
+                    "HEAD":null,
+                    "HANDS":null,
+                    "BODY":{"NAME":"装備名", "RARITY":"装備レアリティ", "GRADE":"強化段階"},
+                    "WEAPON":{"NAME":"武器", "RARITY":"R", "GRADE":"0"},
+                    "LEGS":{"NAME":"足", "RARITY":"R", "GRADE":"+1"}
+                },
+
+                "SET_EFFECT":{}
+            },
+
+            "OPTIMIZATION":{}
+        }
+    }
+}
