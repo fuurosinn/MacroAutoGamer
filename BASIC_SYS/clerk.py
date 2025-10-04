@@ -22,6 +22,7 @@ from BASIC_SYS.saver import SAVER
 
 class CLERK(BASEMENT, SAVER):
     def __init__(self, PARENT:str="NOTHING", DATA_ID:str=""):
+        LS.VOMIT_LOG(msg="/*n|*//*<CLERK>*/ : /*st*/ACTIVE/*st_*/")
         self.PARENT:str
 
         self.GAME_INFO_DIR:str
@@ -36,6 +37,7 @@ class CLERK(BASEMENT, SAVER):
 
         self.LOAD_CHARACTER()
         self.SETTING()
+        LS.VOMIT_LOG(msg="/*n|*//*<CLERK>*/ : /*st*/LAUNCHED/*st_*/")
 
     def LOAD_CHARACTER(self):
         self.CHARA_DATA = LOADER(DIR=self.SAVE_DIR, NAME="chara.json")
