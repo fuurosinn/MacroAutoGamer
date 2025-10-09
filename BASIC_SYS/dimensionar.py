@@ -416,7 +416,7 @@ PAGE_NAME ; str : 指定する階層.
                     t = [num for num, i in enumerate(self.WAY) if i == d]
                     if t == []:
                         raise BTN_EXCEPTION(f"cmd == {f}, 指定された階層がself.WAY内部に存在しない.")
-                    t = [-1] # 名称が重複していた場合は階層が低い方に飛ぶ. 現在の階層の名称と指定された階層の名称が同じ場合の挙動って...階層変わらないよね?.
+                    t = t[-1] # 名称が重複していた場合は階層が低い方に飛ぶ. 現在の階層の名称と指定された階層の名称が同じ場合の挙動って...階層変わらないよね?.
                     del self.WAY[t+1:]
                     del self.ROOT[t+1:]
                     self.DIMENTION_ANALYZE()
@@ -503,4 +503,5 @@ PAGE_NAME ; str : 指定する階層.
                             g.LS.LOGGING(msg="")
                             g.LS.PUSH()
                         case _:
+
                             pass
